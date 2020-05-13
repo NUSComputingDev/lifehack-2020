@@ -14,7 +14,7 @@ title = "Lifehack 2020"
 
 # banner section (from here on is for assembly theme)
 [params.banner]
-  title = "Lifehack 2020"
+  # title = "Lifehack 2020"
 
 [params.actions] # CTAs
   enable = true
@@ -150,6 +150,7 @@ title = "Lifehack 2020"
 [params.organizers]
   enable = true
   title = "Sponsors and Organizers"
+  subtitle = "Sponsors and organizers go here"
 
 
 
@@ -157,7 +158,7 @@ title = "Lifehack 2020"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  subtitle = "Contacts go here"
   name_placeholder = "Your name"
   email_placeholder = "Your email"
   email_disclaimer = "We'll never share your email with anyone else."

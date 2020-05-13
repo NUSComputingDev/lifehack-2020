@@ -72,6 +72,12 @@
 		color: #0048CD;
 	}
 	
+  .byline
+	{
+		font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.60);
+	}
+	
 /*********************************************************************************/
 /* Image Style                                                                   */
 /*********************************************************************************/
@@ -211,7 +217,7 @@
 	.title
 	{
 		margin-bottom: 3em;
-    color: #FFCA2B;
+    color: #FFFFFF;
 	}
 	
 	.title h2
@@ -219,11 +225,6 @@
 		font-size: 2.7em;
 	}
 	
-	.title .byline
-	{
-		font-size: 1.3em;
-	}
-
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -261,7 +262,7 @@
 	#menu
 	{
 		position: absolute;
-		top: 4.5em;
+		top: 0em;
 		right: 0;
 	}
 	
@@ -284,7 +285,8 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 0.8em;
-		color: rgba(255,255,255,0.80);
+    font-weight: bold;
+    color: #0048cd;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
@@ -315,11 +317,6 @@
 	#banner .title h2
 	{
 		font-size: 4em;
-	}
-	
-	#banner .title .byline
-	{
-		font-size: 2em;
 	}
 	
 	#banner .button
@@ -419,11 +416,6 @@
 		text-align: center;
 	}
   
-  #timeline .title .byline
-  {
-		color: rgba(255,255,255,0.60);
-  }
-	
 /*********************************************************************************/
 /* Workshops                                                                     */
 /*********************************************************************************/
@@ -436,11 +428,6 @@
 		background-size: cover;
 		text-align: center;
 	}
-
-  #workshops .title .byline
-  {
-		color: rgba(255,255,255,0.60);
-  }
 
   #workshops .card
   {
@@ -475,11 +462,6 @@
 		text-align: center;
 	}
   
-  #register .title .byline
-  {
-		color: rgba(255,255,255,0.60);
-  }
-
   #register > ul
   {
     padding: 1em 0em 0em 0em;
