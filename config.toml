@@ -1,0 +1,173 @@
+theme = "assembly"
+baseURL = "https://lifehack.nuscomputing.com"
+languageCode = "en-US"
+title = "Lifehack 2020"
+
+
+
+# Metadata
+[params]
+  author = "Lifehack 2020"
+  description = "Lifehack 2020"
+
+
+
+# banner section (from here on is for assembly theme)
+[params.banner]
+  title = "Lifehack 2020"
+
+[params.actions] # CTAs
+  enable = true
+  register = "CTA Now!"
+
+[params.nav]
+  about = "About"
+  timeline = "Timeline"
+  workshops = "Workshops"
+  register = "Registration"
+  faq = "F.A.Q"
+  contact = "Contact"
+  
+
+# About section
+[params.about]
+  enable = true
+  title = "About"
+  description = "Lifehack 2020 is a virtual hackathon that invites you to apply data science to solve pertinent real world problems. Through wide-ranging workshops, you will be exposed to professional tools and develop advanced technical skills to provide innovative solutions for the transport and healthcare industries. Actual problem statements will be released during Phase 1."
+  button_text = "Register Here"
+
+
+
+# Timeline section
+[params.timeline]
+  enable = true
+  title = "Timeline"
+  subtitle = "Countdown and timeline goes here"
+
+
+# Services section
+[params.workshops]
+  enable = true
+  title = "Workshops"
+  subtitle = "Dates and content of workshops"
+
+  [[params.workshops.item]]
+    title = "Beginner workshops on using Python for analytics (Holmusk)"
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+
+  [[params.workshops.item]]
+    title = "TensorFlow workshops for Machine Learning projects (Holmusk)"
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+
+  [[params.workshops.item]]
+    title = "Azure Notebooks – Python Machine Learning (Microsoft)"
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+  
+  [[params.workshops.item]]
+    title = "Intro to Data Science (Microsoft)"
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+  
+  [[params.workshops.item]]
+    title = "Choose Data Science Services (Microsoft)"
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+  
+  [[params.workshops.item]]
+    title = "Predict Flight Delays - Machines Learning Model (Microsoft)"
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+  
+  [[params.workshops.item]]
+    title = "Deep Learning Models (Microsoft)"
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+  
+  [[params.workshops.item]]
+    title = "Analyse the sentiment of reviews with Keras (Microsoft)"
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+
+
+
+# Register section
+[params.register]
+  enable = true
+  title = "Registration Details"
+  subtitle = "Instructions for registration"
+  button_text = "Register Here"
+
+# faq section
+[params.faq]
+  enable = true
+  title = "F.A.Q"
+
+  [[params.faq.item]]
+    title = "I don’t have a team member. Can I still participate?"
+    description = "You are allowed to be alone in your own team and submit your ideas to us. Otherwise, you may want to find teammates to work on your projects together: here (link to tele grp)"
+
+  [[params.faq.item]]
+    title = "How will the submissions be assessed?"
+    description = "Submissions will be assessed by industry experts. Results will be released on 24th May. The Top 9 finalist teams will be invited down for a zoom presentation with the judges Stay tuned until then!"
+
+  [[params.faq.item]]
+    title = "Must I be present for the zoom session if my team is shortlisted?"
+    description = "At least one member of the team has to be present to represent. If no members are available, the team will be disqualified."
+  
+  [[params.faq.item]]
+    title = "Will COVID-19 affect the hackathon?"
+    description = "Since this is a fully virtual hackathon, it is not affected by COVID-19. The timeline will proceed as per normal."
+  
+  [[params.faq.item]]
+    title = "Do I need any technical experience or knowledge?"
+    description = "Not at all, although preferred"
+  
+  [[params.faq.item]]
+    title = "Can I use code I previously wrote?"
+    description = "You are allowed to use previously written code. However, the copying of ideas and code is not allowed."
+  
+  [[params.faq.item]]
+    title = "Are there any restrictions on platforms and languages which can be used?"
+    description = "No, feel free to use any programming languages or technology you’re comfortable with!"
+  
+  [[params.faq.item]]
+    title = "Who owns the intellectual property rights to my submission?"
+    description = "You and your team will own all intellectual property rights to your work."
+
+
+# Organizers section
+[params.organizers]
+  enable = true
+  title = "Sponsors and Organizers"
+
+
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+[params.footer]
+  enable = true
+  copy = "2018 &copy; Assembly Inc. | All rights reserved"
+  twitter = ""
+  facebook = ""
+  instagram = ""

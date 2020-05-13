@@ -1,0 +1,50 @@
+  <div id="timeline" class="container">
+    {{ with .Site.Params.timeline }}
+    <div class="title">
+      <h2>{{ .title }}</h2>
+      <span class="byline">{{ .subtitle }}</span>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-container left">
+        <div class="content">
+          <h2>Git 1.0</h2>
+          <p>Visit this site to learn about Git and become comfortable with basic Git practices</p>
+        </div>
+      </div>
+      <div class="timeline-container right">
+        <div class="content">
+          <h2>PLB</h2>
+          <p>This self-paced course will teach you the basics of understanding code in less than one day</p>
+        </div>
+      </div>
+        <div class="timeline-container left">
+        <div class="content">
+          <h2>PLVM</h2>
+          <p>Now you are ready to download and complete the learning VM</p>
+        </div>
+      </div>
+        <div class="timeline-container right">
+        <div class="content">
+          <h2>GSWP</h2>
+          <p>At this point you are ready to take the in-person training to get some hands-on practice with an instructor</p>
+        </div>
+      </div>
+      <div class="timeline-container left">
+        <div class="content">
+          <h2>P Arch</h2>
+          <p>Ready for a deeper dive? This course will take you even further</p>
+        </div>
+      </div>
+        <div class="timeline-container right">
+        <div class="content">
+          <h2>Keep going!</h2>
+          <p>The journey never ends. Here are some resources to keep you on your learning path.</p>
+        </div>
+      </div>
+    </div>
+
+    <p>{{ .description | markdownify }}</p>
+    {{end}}
+  </div>
+
