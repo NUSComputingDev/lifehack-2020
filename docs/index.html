@@ -12,7 +12,7 @@
 <meta name="description" content="Lifehack 2020">
 <meta http-equiv="content-language" content="en-US" />
 
-<link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
 <link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -29,22 +29,22 @@
   <ul>
     
      
-      <li><a href="#about" accesskey="2" title="">About</a></li>
+      <li><a id="aboutBtn" href="#about" accesskey="2" title="">About</a></li>
     
      
-      <li><a href="#timeline" accesskey="3" title="">Timeline</a></li>
+      <li><a id="timelineBtn" href="#timeline" accesskey="3" title="">Timeline</a></li>
     
      
-      <li><a href="#workshops" accesskey="4" title="">Workshops</a></li>
+      <li><a id="workshopsBtn" href="#workshops" accesskey="4" title="">Workshops</a></li>
     
      
-      <li><a href="#register" accesskey="5" title="">Registration</a></li>
+      <li><a id="registerBtn" href="#register" accesskey="5" title="">Registration</a></li>
     
      
-      <li><a href="#faq" accesskey="6" title="">F.A.Q</a></li>
+      <li><a id="faqBtn" href="#faq" accesskey="6" title="">F.A.Q</a></li>
     
      
-      <li><a href="#contact" accesskey="7" title="">Contact</a></li>
+      <li><a id="contactBtn" href="#contact" accesskey="7" title="">Contact</a></li>
     
   </ul>
 </div>
@@ -423,4 +423,20 @@
 
 	
 </body>
+<script>
+    let btnList = ["about", "timeline", "workshops", "register", "faq", "contact"]
+
+
+$(document).ready(() => {
+    btnList.forEach((element) => {
+        $(`#${element}Btn`).click(function() {
+            $('html, body').animate({
+                scrollTop: $(`#${element}`).offset().top
+            }, $(`#${element}`).offset().top / 6)
+        })
+    })
+
+});
+</script>
 </html>
+
