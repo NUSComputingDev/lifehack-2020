@@ -49,19 +49,24 @@
 	{{ end }}
 </body>
 <script>
-    let btnList = ["about", "timeline", "workshops", "register", "faq", "contact"]
 
+const btnHandler = (element, duration) => {
+    $(`#${element}Btn`).click(function() {
+        $('html, body').animate({
+            scrollTop: $(`#${element}`).offset().top
+        }, duration)
+    })
+};
 
 $(document).ready(() => {
-    btnList.forEach((element) => {
-        $(`#${element}Btn`).click(function() {
-            $('html, body').animate({
-                scrollTop: $(`#${element}`).offset().top
-            }, $(`#${element}`).offset().top / 6)
-        })
-    })
-
+    btnHandler("about",     1000);
+    btnHandler("timeline",  1000);
+    btnHandler("workshops", 2000);
+    btnHandler("register",  2000);
+    btnHandler("faq",       2500);
+    btnHandler("contact",   3000);
 });
+
 </script>
 </html>
 
