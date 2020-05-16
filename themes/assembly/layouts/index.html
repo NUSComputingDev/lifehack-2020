@@ -48,4 +48,20 @@
 	{{ partial "footer.html" .}}
 	{{ end }}
 </body>
+<script>
+    let btnList = ["about", "timeline", "workshops", "register", "faq", "contact"]
+
+
+$(document).ready(() => {
+    btnList.forEach((element) => {
+        $(`#${element}Btn`).click(function() {
+            $('html, body').animate({
+                scrollTop: $(`#${element}`).offset().top
+            }, 1000)
+        })
+    })
+
+});
+</script>
 </html>
+

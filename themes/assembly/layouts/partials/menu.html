@@ -4,22 +4,22 @@
       <li class="active"><a href="#" accesskey="1" title="">{{ with .Site.Params.nav.home }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
      {{ if .Site.Params.about.enable }}
-      <li><a href="#about" accesskey="2" title="">{{ with .Site.Params.nav.about }}{{ . | markdownify }}{{ end }}</a></li>
+      <li><a id="aboutBtn" href="#about" accesskey="2" title="">{{ with .Site.Params.nav.about }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
      {{ if .Site.Params.timeline.enable }}
-      <li><a href="#timeline" accesskey="3" title="">{{ with .Site.Params.nav.timeline }}{{ . | markdownify }}{{ end }}</a></li>
+      <li><a id="timelineBtn" href="#timeline" accesskey="3" title="">{{ with .Site.Params.nav.timeline }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
      {{ if .Site.Params.workshops.enable }}
-      <li><a href="#workshops" accesskey="4" title="">{{ with .Site.Params.nav.workshops }}{{ . | markdownify }}{{ end }}</a></li>
+      <li><a id="workshopsBtn" href="#workshops" accesskey="4" title="">{{ with .Site.Params.nav.workshops }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
      {{ if .Site.Params.register.enable }}
-      <li><a href="#register" accesskey="5" title="">{{ with .Site.Params.nav.register }}{{ . | markdownify }}{{ end }}</a></li>
+      <li><a id="registerBtn" href="#register" accesskey="5" title="">{{ with .Site.Params.nav.register }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
      {{ if .Site.Params.faq.enable }}
-      <li><a href="#faq" accesskey="6" title="">{{ with .Site.Params.nav.faq }}{{ . | markdownify }}{{ end }}</a></li>
+      <li><a id="faqBtn" href="#faq" accesskey="6" title="">{{ with .Site.Params.nav.faq }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
      {{ if .Site.Params.contact.enable }}
-      <li><a href="#contact" accesskey="7" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a></li>
+      <li><a id="contactBtn" href="#contact" accesskey="7" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a></li>
     {{ end }}
   </ul>
 </div>
