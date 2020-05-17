@@ -1,13 +1,33 @@
   <div id="about" class="container">
+
     {{ with .Site.Params.about }}
-    <div class="title">
-      <h2>{{ .title }}</h2>
-      <span class="byline">{{ .subtitle }}</span>
+
+    <div style="display: flex;align-items: center;">
+
+      <!-- left side -->
+      <div style="flex: 1;">
+        <img src="/images/header-bg.png" style="height: 70vh;" />
+    
+      </div>
+
+
+
+
+      <!-- right side -->
+      <div style="flex: 2;">
+        <div class="title">
+          <h2>Lifehack 2020<br/ >Datathon</h2>
+          <span class="byline">{{ .subtitle }}</span>
+        </div>
+        <p>{{ .description | markdownify }}</p>
+        <ul class="actions">
+          <li style="padding: 0px !important"><a href="#" class="button">{{ .button_text }}</a></li>
+        </ul>
+    
+      </div>
+
     </div>
-    <p>{{ .description | markdownify }}</p>
-    <ul class="actions">
-      <li><a href="#" class="button">{{ .button_text }}</a></li>
-    </ul>
+
     {{end}}
   </div>
 

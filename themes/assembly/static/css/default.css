@@ -231,8 +231,6 @@
 
 	#wrapper
 	{
-		position: relative;
-		padding: 0em 0em 0em 0em;
 		background: #181818;
 	}
 
@@ -242,16 +240,12 @@
 
 	#header-wrapper
 	{
-		position: relative;
-		padding: 5em 0em 7em 0em;
-		background: #111111 url(../images/header-bg.jpg) no-repeat center;
-		background-size: cover;
+		background: white;
 	}
 
 	#header
 	{
-		position: relative;
-		padding: 5em 0em;
+		height: 10vh;
 	}
 
 
@@ -264,6 +258,7 @@
 		position: absolute;
 		top: 0em;
 		right: 0;
+		padding: 1em;
 	}
 	
 	#menu ul
@@ -400,7 +395,7 @@
 		padding: 7em 5em 7em 5em;
 		background: #0795FD;
 		background-size: cover;
-		text-align: center;
+		text-align: left;
 	}
 
 /*********************************************************************************/
