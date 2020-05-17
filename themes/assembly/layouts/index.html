@@ -51,7 +51,7 @@
 const btnHandler = (element, duration) => {
     $(`#${element}Btn`).click(function() {
         $('html, body').animate({
-            scrollTop: $(`#${element}`).offset().top
+          scrollTop: $(`#${element}`).offset().top - $('#header-wrapper').height()
         }, duration)
     })
 };

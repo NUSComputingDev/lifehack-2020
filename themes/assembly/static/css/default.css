@@ -241,11 +241,15 @@
 	#header-wrapper
 	{
 		background: white;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 99999;
+    width: 100%;
 	}
 
 	#header
 	{
-		height: 10vh;
+		height: 4em;
 	}
 
 
