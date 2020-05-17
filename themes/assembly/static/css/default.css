@@ -672,7 +672,7 @@
 
 
 .countdown {
-  width: 695px;
+  width: 735px;
   height: 140px;
   margin: 3em auto;
 }
@@ -695,8 +695,8 @@
 .countdown .figure {
   position: relative;
   float: left;
-  height: 75px;
-  width: 65px;
+  height: 85px;
+  width: 70px;
   margin-right: 10px;
   background-color: #fff;
   border-radius: 8px;

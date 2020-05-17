@@ -1,3 +1,5 @@
+
+
 // Create Countdown
 var Countdown = {
   
@@ -54,7 +56,7 @@ var Countdown = {
       var seconds = Math.floor(diff / (1000));
       diff -= mins * (1000);
 
-      if(days > 0 && hours > 0 && mins > 0 && seconds > 0) {
+      if(days > 0 || hours > 0 || mins > 0 || seconds > 0) {
 
         // Update DOM values
         // Days
