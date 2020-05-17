@@ -9,7 +9,7 @@
 		padding: 0px;
 		background: #181818;
 		font-family: 'Didact Gothic', sans-serif;
-		font-size: 12pt;
+		font-size: 14pt;
 		font-weight: 200;
 		color: #FFF;
 	}
@@ -74,7 +74,7 @@
 	
   .byline
 	{
-		font-size: 1.3em;
+		font-size: 1.6em;
     color: rgba(255, 255, 255, 0.60);
 	}
 	
@@ -152,7 +152,7 @@
 		border-radius: 6px;
 		text-decoration: none;
 		font-weight: 700;
-		font-size: 1em;
+		font-size: 1.2em;
 		color: #FFF;
 	}
 	
@@ -222,7 +222,7 @@
 	
 	.title h2
 	{
-		font-size: 2.7em;
+		font-size: 3.0em;
 	}
 	
 /*********************************************************************************/
@@ -399,8 +399,23 @@
 		padding: 7em 5em 5em 5em;
 		background: #0795FD;
 		background-size: cover;
-		text-align: left;
+		text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
 	}
+
+  #logo img
+  {
+    height: 70vh;
+  }
+
+  #about p
+  {
+    min-width: 400px;
+    text-align: left;
+  }
 
 /*********************************************************************************/
 /* Timeline                                                                      */
@@ -585,13 +600,12 @@
   content: " ";
   height: 0;
   position: absolute;
-  top: 22px;
+  top: 30px;
   width: 0;
   z-index: 1;
-  right: 30px;
+  right: 0px;
   border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-width: 2px 0 2px 45px;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -599,13 +613,12 @@
   content: " ";
   height: 0;
   position: absolute;
-  top: 22px;
+  top: 30px;
   width: 0;
   z-index: 1;
-  left: 30px;
+  left: 0px;
   border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-width: 2px 0px 2px 45px;
 }
 
 /* Fix the circle for containers on the right side */
@@ -675,7 +688,7 @@
 .countdown .count-title {
   display: block;
   margin-bottom: 15px;
-  font: normal 0.94em Orbitron;
+  font: normal 1.1em Orbitron;
   color: #FFCA2B;
   text-transform: uppercase;
 }

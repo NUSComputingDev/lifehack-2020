@@ -6,13 +6,15 @@
       </div>
       <div class="row">
         {{ range .item }}
-        <div class="column card">
-          <h3>{{ .title | markdownify }}</h3>
-          <ul>
-            <li>Date and Time: <b>{{ .dateandtime | markdownify }}</b></li>
-            <li>Venue: <b>{{ .venue | markdownify }}</b></li>
-            <li>Open to: <b>{{ .opento | markdownify }}</b></li>
-          </ul>
+        <div class="column">
+          <div class="card">
+            <h3>{{ .title | markdownify }}</h3>
+            <ul>
+              <li>Date and Time: <b>{{ .dateandtime | markdownify }}</b></li>
+              <li>Venue: <b>{{ .venue | markdownify }}</b></li>
+              <li>Open to: <b>{{ .opento | markdownify }}</b></li>
+            </ul>
+          </div>
         </div>
         {{ end }}
       </div>
