@@ -59,11 +59,18 @@
 		padding: 0px 100px;
   }
 
-  .container > p, .container > ul, .container > .title, .container > h3, .container > .row
+  .container > p, .container > ul, .container > .title, .container > h3
   {
 		overflow: hidden;
     max-width: 900px;
 		margin: 0em auto;
+  }
+
+  .container > .row
+  {
+    max-width: 1150px;
+    margin: 0em auto;
+    overflow: hidden;
   }
 
 	.container .button
@@ -445,8 +452,7 @@
 
   #workshops .card
   {
-    max-width: 380px;
-    margin: 1em auto;
+    margin: 1em;
     padding: 1em;
     background: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */

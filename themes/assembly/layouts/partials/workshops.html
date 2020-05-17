@@ -8,7 +8,7 @@
         {{ range .item }}
         <div class="column">
           <div class="card">
-            <h3>{{ .title | markdownify }}</h3>
+            <h3>{{ .title | markdownify }}<br>{{ .company }}</h3>
             <ul>
               <li>Date and Time: <b>{{ .dateandtime | markdownify }}</b></li>
               <li>Venue: <b>{{ .venue | markdownify }}</b></li>

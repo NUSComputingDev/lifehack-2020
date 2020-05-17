@@ -52,49 +52,57 @@ title = "Lifehack 2020"
   subtitle = "Dates and content of workshops"
 
   [[params.workshops.item]]
-    title = "Beginner workshops on using Python for analytics (Holmusk)"
+    title = "Beginner workshops on using Python for analytics"
+    company = "(Holmusk)"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
 
   [[params.workshops.item]]
-    title = "TensorFlow workshops for Machine Learning projects (Holmusk)"
+    title = "TensorFlow workshops for Machine Learning projects"
+    company = "(Holmusk)"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
 
   [[params.workshops.item]]
-    title = "Azure Notebooks – Python Machine Learning (Microsoft)"
+    title = "Azure Notebooks – Python Machine Learning"
+    company = "(Microsoft)"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
   
   [[params.workshops.item]]
-    title = "Intro to Data Science (Microsoft)"
+    title = "Intro to Data Science"
+    company = "(Microsoft)"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
   
   [[params.workshops.item]]
-    title = "Choose Data Science Services (Microsoft)"
+    title = "Choose Data Science Services"
+    company = "(Microsoft)"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
   
   [[params.workshops.item]]
-    title = "Predict Flight Delays - Machines Learning Model (Microsoft)"
+    title = "Predict Flight Delays - Machines Learning Model"
+    company = "(Microsoft)"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
   
   [[params.workshops.item]]
-    title = "Deep Learning Models (Microsoft)"
+    title = "Deep Learning Models"
+    company = "(Microsoft)"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
   
   [[params.workshops.item]]
-    title = "Analyse the sentiment of reviews with Keras (Microsoft)"
+    title = "Analyse the sentiment of reviews with Keras"
+    company = "(Microsoft)"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
