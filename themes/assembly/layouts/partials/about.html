@@ -14,13 +14,13 @@
 
     <!-- right side -->
     <div style="flex: 2;">
-      <div class="title">
-        <h2>Lifehack 2020<br/ >Datathon</h2>
+      <div class="title" style="margin-bottom: 1em !important;">
+        <h2 class="header">Lifehack 2020 Datathon</h2>
         <span class="byline">{{ .subtitle }}</span>
       </div>
-      <p>{{ .description | markdownify }}</p>
+      <p class="description">{{ .description | markdownify }}</p>
       <ul class="actions">
-        <li style="padding: 0px !important"><a href="#" class="button">{{ .button_text }}</a></li>
+        <li style="padding: 0px !important"><a href="#" class="button" style="margin-top: 1em !important">{{ .button_text }}</a></li>
       </ul>
   
     </div>
@@ -29,3 +29,15 @@
     {{end}}
   </div>
 
+<style>
+.header {
+    font-size: 2.5em !important;
+    text-shadow: -3px 3px rgb(22,72,176);
+    font-weight: bold;
+}
+.description {
+    font-size: 0.96em !important;
+    text-align: center !important;
+    width: 100%;
+}
+</style>

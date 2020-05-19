@@ -33,7 +33,7 @@ title = "Lifehack 2020"
 [params.about]
   enable = true
   title = "About"
-  description = "Lifehack 2020 is a virtual hackathon that invites you to apply data science to solve pertinent real world problems. Through wide-ranging workshops, you will be exposed to professional tools and develop advanced technical skills to provide innovative solutions for the transport and healthcare industries. Actual problem statements will be released during Phase 1."
+  description = "Lifehack 2020 is a virtual datathon that invites you to apply data science to solve pertinent real world problems. Through wide-ranging workshops, you will be exposed to professional tools and develop advanced technical skills to provide innovative solutions for the transport and healthcare industries."
   button_text = "Register Here"
 
 
