@@ -418,12 +418,11 @@
     height: 70vh;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-device-width: 600px) {
 
     #logo img
     {
-      width: 350px;
-      height: 350px;
+      height: 20vh;
     }
 
   }
