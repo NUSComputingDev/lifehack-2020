@@ -82,7 +82,7 @@
   .byline
 	{
 		font-size: 1.6em;
-    color: rgba(255, 255, 255, 0.60);
+    color: rgba(255, 255, 255, 1.00);
 	}
 	
 /*********************************************************************************/
@@ -456,17 +456,19 @@
     padding: 1em;
     background: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    border-radius: 6px;
+    border-radius: 6px
   }
 
   #workshops h3
   {
     color: #ED7014;
+    margin-bottom: 15px;
   }
 
   #workshops ul
   {
     color: #000000;
+    margin-bottom: 0px;
   }
 	
 /*********************************************************************************/
@@ -481,10 +483,20 @@
 		background-size: cover;
 		text-align: center;
 	}
-  
-  #register > ul
+
+  #register .details-wrapper
   {
-    padding: 1em 0em 0em 0em;
+    max-width: 600px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    padding: 1em 1em 1em 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    border-radius: 6px;
+    color: #ED7014;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.44em;
   }
 	
 /*********************************************************************************/
@@ -502,8 +514,18 @@
 
   #faq > .row > .column > h3, #faq > .row > .column > p
   {
-    margin: 0.5em 0.5em;
     text-align: left;
+  }
+
+  #faq > .row > .column > h3
+  {
+    margin: 1.5em 1.5em 0em 1.4em;
+  }
+
+  #faq > .row > .column > p
+  {
+    margin: 0em 1.5em 1.5em 1.5em;
+    padding: 0;
   }
 
 /*********************************************************************************/
@@ -564,8 +586,8 @@
   position: absolute;
   width: 6px;
   background-color: white;
-  top: 0;
-  bottom: 0;
+  top: 25px;
+  bottom: 120px;
   left: 50%;
   margin-left: -3px;
 }

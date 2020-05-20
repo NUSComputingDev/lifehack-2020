@@ -2,6 +2,7 @@ theme = "assembly"
 baseURL = "https://lifehack.nuscomputing.com"
 languageCode = "en-US"
 title = "Lifehack 2020"
+publishDir = "docs"
 
 
 
@@ -42,14 +43,12 @@ title = "Lifehack 2020"
 [params.timeline]
   enable = true
   title = "Timeline"
-  subtitle = "Countdown and timeline goes here"
 
 
 # Services section
 [params.workshops]
   enable = true
   title = "Workshops"
-  subtitle = "Dates and content of workshops"
 
   [[params.workshops.item]]
     title = "Beginner workshops on using Python for analytics"
@@ -113,7 +112,6 @@ title = "Lifehack 2020"
 [params.register]
   enable = true
   title = "Registration Details"
-  subtitle = "Instructions for registration"
   button_text = "Register Here"
 
 # faq section
@@ -158,7 +156,6 @@ title = "Lifehack 2020"
 [params.organizers]
   enable = true
   title = "Sponsors and Organizers"
-  subtitle = "Sponsors and organizers go here"
 
 
 
@@ -166,12 +163,7 @@ title = "Lifehack 2020"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  subtitle = "For furthur enquiries, kindly contact lifehack@nuscomputing.com"
-  name_placeholder = "Your name"
-  email_placeholder = "Your email"
-  email_disclaimer = "We'll never share your email with anyone else."
-  message_placeholder = "Please enter a message."
-  button_text = "Submit"
+  subtitle = "For furthur enquiries, kindly email lifehack@nuscomputing.com"
 
 # Footer section
 [params.footer]
