@@ -126,6 +126,18 @@
 		padding: 0em 0.50em;
 	}
 
+  ul
+  {
+    padding: 0;
+  }
+
+  li
+  {
+    list-style-type: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+
 
 /*********************************************************************************/
 /* Button Style                                                                  */
