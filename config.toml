@@ -168,7 +168,7 @@ publishDir = "docs"
 # Footer section
 [params.footer]
   enable = true
-  copy = "2018 &copy; Assembly Inc. | All rights reserved"
+  copy = "2020 &copy; NUS Students' Computing Club | All rights reserved | Using the Assembly Theme"
   twitter = ""
   facebook = ""
   instagram = ""

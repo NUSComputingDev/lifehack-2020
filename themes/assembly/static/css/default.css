@@ -452,6 +452,15 @@
 		background-size: cover;
 		text-align: center;
 	}
+
+  #timeline h4
+  {
+    font-family: 'Orbitron';
+    font-size: 5em;
+    color: #FFCA2B;
+    padding: 0;
+    margin: 0;
+  }
   
 /*********************************************************************************/
 /* Workshops                                                                     */
@@ -529,6 +538,17 @@
 		text-align: center;
 	}
 
+
+  #faq > .row > .column > h3
+  {
+    font-size: 1.44em;
+  }
+  
+  #faq > .row > .column > p
+  {
+    font-size: 1.2em;
+  }
+
   #faq > .row > .column > h3, #faq > .row > .column > p
   {
     text-align: left;
@@ -536,7 +556,7 @@
 
   #faq > .row > .column > h3
   {
-    margin: 1.5em 1.5em 0em 1.5em;
+    margin: 1.5em 1.5em 0em 1.2em;
   }
 
   #faq > .row > .column > p
@@ -635,6 +655,12 @@
   font-size: 1.96em;
 }
 
+.timeline-container p
+{
+  font-size: 1.44em;
+  font-weight: bold;
+}
+
 /* Place the container to the left */
 .left {
   left: 0%;
@@ -725,7 +751,7 @@
 .countdown {
   width: 735px;
   height: 140px;
-  margin: 3em auto;
+  margin: 3em auto 0em auto;
 }
 
 .countdown .bloc-time {
