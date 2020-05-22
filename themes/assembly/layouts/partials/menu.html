@@ -1,32 +1,34 @@
 <div id="menu" class="topnav">
-     {{ if .Site.Params.contact.enable }}
-      <a id="contactBtn" href="#contact" accesskey="7" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a>
-    {{ end }}
-     {{ if .Site.Params.faq.enable }}
-      <a id="faqBtn" href="#faq" accesskey="6" title="">{{ with .Site.Params.nav.faq }}{{ . | markdownify }}{{ end }}</a>
-    {{ end }}
-     {{ if .Site.Params.register.enable }}
-      <a id="registerBtn" href="#register" accesskey="5" title="">{{ with .Site.Params.nav.register }}{{ . | markdownify }}{{ end }}</a>
-    {{ end }}
-     {{ if .Site.Params.workshops.enable }}
-      <a id="workshopsBtn" href="#workshops" accesskey="4" title="">{{ with .Site.Params.nav.workshops }}{{ . | markdownify }}{{ end }}</a>
-    {{ end }}
-     {{ if .Site.Params.timeline.enable }}
-      <a id="timelineBtn" href="#timeline" accesskey="3" title="">{{ with .Site.Params.nav.timeline }}{{ . | markdownify }}{{ end }}</a>
+    <a class="logo">
+      <img src="/images/header-bg.png" />
+    </a>
+
+    {{ if .Site.Params.nav.home }}
+      <a href="#" accesskey="1" title="">{{ with .Site.Params.nav.home }}{{ . | markdownify }}{{ end }}</a>
     {{ end }}
      {{ if .Site.Params.about.enable }}
       <a id="aboutBtn" href="#about" accesskey="2" title="">{{ with .Site.Params.nav.about }}{{ . | markdownify }}{{ end }}</a>
     {{ end }}
-    {{ if .Site.Params.nav.home }}
-      <a href="#" accesskey="1" title="">{{ with .Site.Params.nav.home }}{{ . | markdownify }}{{ end }}</a>
+     {{ if .Site.Params.timeline.enable }}
+      <a id="timelineBtn" href="#timeline" accesskey="3" title="">{{ with .Site.Params.nav.timeline }}{{ . | markdownify }}{{ end }}</a>
     {{ end }}
+     {{ if .Site.Params.workshops.enable }}
+      <a id="workshopsBtn" href="#workshops" accesskey="4" title="">{{ with .Site.Params.nav.workshops }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
+     {{ if .Site.Params.register.enable }}
+      <a id="registerBtn" href="#register" accesskey="5" title="">{{ with .Site.Params.nav.register }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
+     {{ if .Site.Params.faq.enable }}
+      <a id="faqBtn" href="#faq" accesskey="6" title="">{{ with .Site.Params.nav.faq }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
+     {{ if .Site.Params.contact.enable }}
+      <a id="contactBtn" href="#contact" accesskey="7" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
+
+
 
     <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
       <i class="fa fa-bars"></i>
-    </a>
-
-    <a class="logo">
-      <img src="/images/header-bg.png" />
     </a>
 </div>
 

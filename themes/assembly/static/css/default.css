@@ -260,11 +260,12 @@
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
-    background-color: #181818;
+    background-color: #181818; 
+    padding-left: 50px;
   }
 
   .topnav a {
-    float: right;
+    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -300,7 +301,8 @@
   @media screen and (max-device-width: 600px) {
     .topnav a {
       display: none;
-      font-size: 5.0em;
+      font-size: 7.0em;
+      padding-right: 0.7em;
     }
     .topnav a.icon {
       float: right;
