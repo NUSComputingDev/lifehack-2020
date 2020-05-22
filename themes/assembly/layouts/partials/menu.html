@@ -1,25 +1,43 @@
-<div id="menu">
-  <ul>
-    {{ if .Site.Params.nav.home }}
-      <li class="active"><a href="#" accesskey="1" title="">{{ with .Site.Params.nav.home }}{{ . | markdownify }}{{ end }}</a></li>
-    {{ end }}
-     {{ if .Site.Params.about.enable }}
-      <li><a id="aboutBtn" href="#about" accesskey="2" title="">{{ with .Site.Params.nav.about }}{{ . | markdownify }}{{ end }}</a></li>
-    {{ end }}
-     {{ if .Site.Params.timeline.enable }}
-      <li><a id="timelineBtn" href="#timeline" accesskey="3" title="">{{ with .Site.Params.nav.timeline }}{{ . | markdownify }}{{ end }}</a></li>
-    {{ end }}
-     {{ if .Site.Params.workshops.enable }}
-      <li><a id="workshopsBtn" href="#workshops" accesskey="4" title="">{{ with .Site.Params.nav.workshops }}{{ . | markdownify }}{{ end }}</a></li>
-    {{ end }}
-     {{ if .Site.Params.register.enable }}
-      <li><a id="registerBtn" href="#register" accesskey="5" title="">{{ with .Site.Params.nav.register }}{{ . | markdownify }}{{ end }}</a></li>
+<div id="menu" class="topnav">
+     {{ if .Site.Params.contact.enable }}
+      <a id="contactBtn" href="#contact" accesskey="7" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a>
     {{ end }}
      {{ if .Site.Params.faq.enable }}
-      <li><a id="faqBtn" href="#faq" accesskey="6" title="">{{ with .Site.Params.nav.faq }}{{ . | markdownify }}{{ end }}</a></li>
+      <a id="faqBtn" href="#faq" accesskey="6" title="">{{ with .Site.Params.nav.faq }}{{ . | markdownify }}{{ end }}</a>
     {{ end }}
-     {{ if .Site.Params.contact.enable }}
-      <li><a id="contactBtn" href="#contact" accesskey="7" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a></li>
+     {{ if .Site.Params.register.enable }}
+      <a id="registerBtn" href="#register" accesskey="5" title="">{{ with .Site.Params.nav.register }}{{ . | markdownify }}{{ end }}</a>
     {{ end }}
-  </ul>
+     {{ if .Site.Params.workshops.enable }}
+      <a id="workshopsBtn" href="#workshops" accesskey="4" title="">{{ with .Site.Params.nav.workshops }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
+     {{ if .Site.Params.timeline.enable }}
+      <a id="timelineBtn" href="#timeline" accesskey="3" title="">{{ with .Site.Params.nav.timeline }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
+     {{ if .Site.Params.about.enable }}
+      <a id="aboutBtn" href="#about" accesskey="2" title="">{{ with .Site.Params.nav.about }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
+    {{ if .Site.Params.nav.home }}
+      <a href="#" accesskey="1" title="">{{ with .Site.Params.nav.home }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
+
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+
+    <a class="logo">
+      <img src="/images/header-bg.png" />
+    </a>
 </div>
+
+<script>
+function toggleMenu() {
+  var x = document.getElementById("menu");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
