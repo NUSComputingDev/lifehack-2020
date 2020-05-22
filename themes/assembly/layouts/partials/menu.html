@@ -1,7 +1,5 @@
 <div id="menu" class="topnav">
-    <a class="logo">
-      <img src="/images/header-bg.png" />
-    </a>
+    <img class="logo" src="/images/header-bg.png" />
 
     {{ if .Site.Params.nav.home }}
       <a href="#" accesskey="1" title="">{{ with .Site.Params.nav.home }}{{ . | markdownify }}{{ end }}</a>
