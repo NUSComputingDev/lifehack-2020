@@ -270,7 +270,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.6em;
   }
 
   .topnav a:hover {
@@ -286,16 +286,21 @@
     float: left;
     display: block;
     padding: 0;
-    height: 50px;
+    text-align: middle;
   }
 
   .topnav .logo img {
-    height: 100%;
+    height:  1.5em;
+    left: 0.2em;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
   }
 
   @media screen and (max-device-width: 600px) {
     .topnav a {
       display: none;
+      font-size: 5.0em;
     }
     .topnav a.icon {
       float: right;
