@@ -14,6 +14,7 @@
               <li>Venue: <b>{{ .venue | markdownify }}</b></li>
               <li>Open to: <b>{{ .opento | markdownify }}</b></li>
             </ul>
+            <p>{{ .description | markdownify }}</p>
           </div>
         </div>
         {{ end }}

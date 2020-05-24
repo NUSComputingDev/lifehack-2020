@@ -474,7 +474,7 @@
   #timeline h4
   {
     font-family: 'Orbitron';
-    font-size: 5em;
+    font-size: 3em;
     color: #FFCA2B;
     padding: 0;
     margin: 0;
@@ -495,8 +495,10 @@
 
   #workshops .card
   {
-    margin: 1em;
-    padding: 1em;
+    width: 500px;
+    height: 280px;
+    margin: 20px auto;
+    padding: 2em;
     background: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     border-radius: 6px
@@ -513,6 +515,14 @@
   {
     color: #000000;
     margin-bottom: 0px;
+    font-size: 1.1em;
+  }
+
+  #workshops p
+  {
+    color: #000000;
+    text-align: justify;
+    font-size: 1.0em;
   }
 	
 /*********************************************************************************/
@@ -534,13 +544,13 @@
     background: white;
     margin: 0 auto;
     margin-top: 1.5em;
-    padding: 1em 1em 1em 1em;
+    padding: 0.5em 1em 0.5em 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     border-radius: 6px;
     color: #ED7014;
     text-align: left;
     font-weight: bold;
-    font-size: 1.44em;
+    font-size: 1.3em;
   }
 	
 /*********************************************************************************/

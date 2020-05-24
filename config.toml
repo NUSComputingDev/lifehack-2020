@@ -34,7 +34,7 @@ publishDir = "docs"
 [params.about]
   enable = true
   title = "About"
-  description = "Lifehack 2020 is a virtual datathon that invites you to apply data science to solve pertinent real world problems. Through wide-ranging workshops, you will be exposed to professional tools and develop advanced technical skills to provide innovative solutions for the transport and healthcare industries."
+  description = "Lifehack 2020 is a virtual datathon that invites you to apply data science to solve pertinent real world problems. Through wide-ranging workshops, you will be exposed to professional tools and develop advanced technical skills to provide innovative solutions for the transport industries."
   button_text = "Register Here"
 
 
@@ -49,62 +49,21 @@ publishDir = "docs"
 [params.workshops]
   enable = true
   title = "Workshops"
+  subtitle = "By Holmusk"
 
   [[params.workshops.item]]
-    title = "Beginner workshops on using Python for analytics"
-    company = "(Holmusk)"
+    title = "Computer Vision Data Pre-processing using Pytorch"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
+    description = "Our team of experienced data scientists will deliver a 1-hr lesson on image pre-processing user-output images for computer vision models. They will bring you through each step of converting images into a model-worthy format and how to visualize images using python libraries. Teams will be able to use the sample codes to start processing the images for the coding challenge."
 
   [[params.workshops.item]]
-    title = "TensorFlow workshops for Machine Learning projects"
-    company = "(Holmusk)"
+    title = "Building a CNN from scratch using Pytorch"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
-
-  [[params.workshops.item]]
-    title = "Azure Notebooks – Python Machine Learning"
-    company = "(Microsoft)"
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
-  
-  [[params.workshops.item]]
-    title = "Intro to Data Science"
-    company = "(Microsoft)"
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
-  
-  [[params.workshops.item]]
-    title = "Choose Data Science Services"
-    company = "(Microsoft)"
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
-  
-  [[params.workshops.item]]
-    title = "Predict Flight Delays - Machines Learning Model"
-    company = "(Microsoft)"
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
-  
-  [[params.workshops.item]]
-    title = "Deep Learning Models"
-    company = "(Microsoft)"
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
-  
-  [[params.workshops.item]]
-    title = "Analyse the sentiment of reviews with Keras"
-    company = "(Microsoft)"
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
+    description = "During this 1-hr session, Holmusk’s Lead Data Scientist will bring you through the concepts of convolutional neural networks for classification models. We will provide each team with a sample code to 1) build a CNN model, 2) perform model optimization and 3) validate the accuracy of the model."
 
 
 
