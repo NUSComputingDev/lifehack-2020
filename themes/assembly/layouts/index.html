@@ -16,30 +16,31 @@
 	{{ if .Site.Params.about.enable }}
 	{{ partial "about.html" . }}
 	{{ end }}
-	
+
   {{ if .Site.Params.timeline.enable }}
 	{{ partial "timeline.html" . }}
 	{{ end }}
-	
+
   {{ if .Site.Params.workshops.enable }}
 	{{ partial "workshops.html" . }}
 	{{ end }}
-	
+
   {{ if .Site.Params.register.enable }}
 	{{ partial "register.html" . }}
 	{{ end }}
-  
+
   {{ if .Site.Params.faq.enable }}
 	{{ partial "faq.html" . }}
 	{{ end }}
-  
-  {{ if .Site.Params.organizers.enable }}
-	{{ partial "organizers.html" . }}
-	{{ end }}
-	
+
   {{ if .Site.Params.contact.enable }}
   {{ partial "contact.html" . }}
 	{{ end }}
+
+  {{ if .Site.Params.organizers.enable }}
+	{{ partial "organizers.html" . }}
+	{{ end }}
+
 </div>
 
 	{{ if .Site.Params.footer.enable }}
