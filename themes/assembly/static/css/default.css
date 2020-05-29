@@ -34,6 +34,50 @@
 		text-decoration: none;
 	}
 
+  .pluses
+  {
+    position: fixed;
+    z-index: 2;
+  }
+
+  #pluses-1
+  {
+    top: 50px;
+    left: 0px
+  }
+
+  #pluses-2
+  {
+    top: 50px;
+    right: 0px;
+  }
+
+  @media screen and (max-device-width: 600px) {
+    #pluses-1
+    {
+      top: 150px;
+      left: 0px
+    }
+
+    #pluses-2
+    {
+      top: 150px;
+      right: 0px;
+    }
+  }
+
+  #pluses-3
+  {
+    bottom: 0px;
+    left: 0px;
+  }
+
+  #pluses-4
+  {
+    bottom: 0px;
+    right: 0px;
+  }
+
 	.container
 	{
 		overflow: hidden;
@@ -422,6 +466,11 @@
     flex-wrap: wrap;
 	}
 
+  #about-logo
+  {
+    z-index: 2;
+  }
+
   #about-logo img
   {
     max-width: 600px;
@@ -429,15 +478,26 @@
     margin: 50px;
   }
 
+  #about-nodes
+  {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
   #about-info
   {
     flex: 1;
+    z-index: 2;
   }
 
 	#about .title h2
 	{
 		font-size: 3.0em;
     text-shadow: -3px 3px rgb(22,72,176);
+    z-index: 2;
 	}
 
   #about p
