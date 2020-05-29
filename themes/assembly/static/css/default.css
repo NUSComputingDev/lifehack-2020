@@ -664,6 +664,31 @@
     text-shadow: -3px 3px rgb(22,72,176);
 	}
 
+  #organizers #organizers-list #sponsors-list
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #organizers h3
+  {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-size: 2.0em;
+  }
+
+  #organizers #organizers-list img
+  {
+    width: 400px;
+    margin: 30px;
+  }
+
+  #organizers #sponsors-list img
+  {
+    width: 400px;
+    margin: 30px;
+  }
+
 
 /*********************************************************************************/
 /* Extra                                                                         */
