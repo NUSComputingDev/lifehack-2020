@@ -677,7 +677,13 @@
 
   /* Clear floats after the columns */
   .column {
-    flex: 50%;
+    width: 50%;
+  }
+
+  @media screen and (max-device-width: 600px) {
+    .column {
+      width: 100%;
+    }
   }
 
 
