@@ -564,14 +564,23 @@
 
   #workshops .card
   {
-    width: 500px;
-    height: 280px;
-    margin: 20px auto;
-    padding: 2em;
+    width: 400px;
+    height: 320px;
+    margin: 20px;
+    padding: 30px;
     background: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     border-radius: 6px
   }
+
+  #workshops .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+		padding: 1em 0em;
+  }
+
 
   #workshops h3
   {
@@ -755,23 +764,6 @@
 /*********************************************************************************/
 /* Extra                                                                         */
 /*********************************************************************************/
-
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-		padding: 1em 0em;
-  }
-
-  /* Clear floats after the columns */
-  .column {
-    width: 50%;
-  }
-
-  @media screen and (max-device-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
 
 
 /* The actual timeline (the vertical ruler) */
