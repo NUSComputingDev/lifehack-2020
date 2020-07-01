@@ -2,16 +2,16 @@
 
 // Create Countdown
 var Countdown = {
-  
+
   // Backbone-like structure
   $el: $('.countdown'),
-  
+
   // Params
   countdown_interval: null,
-  
-  // Initialize the countdown  
+
+  // Initialize the countdown
   init: function() {
-    
+
     // DOM
 		this.$ = {
       days   : this.$el.find('.bloc-time.days .figure'),
@@ -20,12 +20,12 @@ var Countdown = {
     	seconds: this.$el.find('.bloc-time.sec .figure')
    	};
 
-    // Animate countdown to the end 
-    this.count();    
+    // Animate countdown to the end
+    this.count();
   },
-  
+
   count: function() {
-    
+
     var that    = this,
         $day_1  = this.$.days.eq(0),
         $day_2  = this.$.days.eq(1),
@@ -35,12 +35,12 @@ var Countdown = {
         $min_2  = this.$.minutes.eq(1),
         $sec_1  = this.$.seconds.eq(0),
         $sec_2  = this.$.seconds.eq(1);
-   
+
 
     var update = function() {
 
       var date1 = new Date(); // Now.
-      var date2 = new Date("14/June/2020 23:59:59 GMT+0800");
+      var date2 = new Date("22/July/2020 23:59:59 GMT+0800");
 
       var diff = date2.getTime() - date1.getTime();
 
@@ -67,7 +67,7 @@ var Countdown = {
 
         // Minutes
         that.checkHour(mins, $min_1, $min_2);
-        
+
         // Seconds
         that.checkHour(seconds, $sec_1, $sec_2);
 
@@ -82,12 +82,12 @@ var Countdown = {
         if (!update()) {
           clearInterval(that.countdown_interval);
         }
-      }, 1000);    
+      }, 1000);
     }
   },
-  
+
   animateFigure: function($el, value) {
-    
+
      var that         = this,
 		     $top         = $el.find('.top'),
          $bottom      = $el.find('.bottom'),
@@ -115,16 +115,16 @@ var Countdown = {
         }
     });
 
-    TweenMax.to($back_top, 0.8, { 
+    TweenMax.to($back_top, 0.8, {
         rotationX           : 0,
         transformPerspective: 300,
-	      ease                : Quart.easeOut, 
-        clearProps          : 'all' 
-    });    
+	      ease                : Quart.easeOut,
+        clearProps          : 'all'
+    });
   },
-  
+
   checkHour: function(value, $el_1, $el_2) {
-    
+
     var val_1       = value.toString().charAt(0),
         val_2       = value.toString().charAt(1),
         fig_1_value = $el_1.find('.top').html(),
@@ -141,7 +141,7 @@ var Countdown = {
         // If we are under 10, replace first figure with 0
         if(fig_1_value !== '0') this.animateFigure($el_1, 0);
         if(fig_2_value !== val_1) this.animateFigure($el_2, val_1);
-    }    
+    }
   }
 };
 

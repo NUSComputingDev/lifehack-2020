@@ -49,7 +49,6 @@ publishDir = "docs"
 [params.workshops]
   enable = true
   title = "Workshops"
-  subtitle = "By Holmusk"
 
   [[params.workshops.item]]
     title = "Computer Vision Data Pre-processing using Pytorch"
@@ -126,7 +125,7 @@ publishDir = "docs"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  subtitle = "For furthur enquiries, kindly email lifehack@nuscomputing.com"
+  subtitle = "For further enquiries, kindly email lifehack@nuscomputing.com"
 
 # Footer section
 [params.footer]
