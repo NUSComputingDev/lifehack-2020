@@ -1,5 +1,5 @@
-<div id="faq" class="container">
-  {{ with .Site.Params.faq }}
+<div id="prizes" class="container">
+  {{ with .Site.Params.prizes }}
   <div class="title">
     <h2>{{ .title }}</h2>
     <span class="byline">{{ .subtitle }}</span>
@@ -8,7 +8,8 @@
     {{ range .item }}
     <div class="column">
       <h3>{{ .title | markdownify }}</h3>
-      <p>{{ .description | markdownify}}</p>
+      <p>{{ .description1 | markdownify}}</p>
+      <p>{{ .description2 | markdownify}}</p>
     </div>
     {{ end }}
   </div>

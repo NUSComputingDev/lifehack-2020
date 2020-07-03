@@ -13,14 +13,20 @@
      {{ if .Site.Params.workshops.enable }}
       <a id="workshopsBtn" href="#workshops" accesskey="4" title="">{{ with .Site.Params.nav.workshops }}{{ . | markdownify }}{{ end }}</a>
     {{ end }}
+     {{ if .Site.Params.prizes.enable }}
+      <a id="prizesBtn" href="#prizes" accesskey="5" title="">{{ with .Site.Params.nav.prizes }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
+     {{ if .Site.Params.judges.enable }}
+      <a id="judgesBtn" href="#judges" accesskey="6" title="">{{ with .Site.Params.nav.judges }}{{ . | markdownify }}{{ end }}</a>
+    {{ end }}
      {{ if .Site.Params.register.enable }}
-      <a id="registerBtn" href="#register" accesskey="5" title="">{{ with .Site.Params.nav.register }}{{ . | markdownify }}{{ end }}</a>
+      <a id="registerBtn" href="#register" accesskey="7" title="">{{ with .Site.Params.nav.register }}{{ . | markdownify }}{{ end }}</a>
     {{ end }}
      {{ if .Site.Params.faq.enable }}
-      <a id="faqBtn" href="#faq" accesskey="6" title="">{{ with .Site.Params.nav.faq }}{{ . | markdownify }}{{ end }}</a>
+      <a id="faqBtn" href="#faq" accesskey="8" title="">{{ with .Site.Params.nav.faq }}{{ . | markdownify }}{{ end }}</a>
     {{ end }}
      {{ if .Site.Params.contact.enable }}
-      <a id="contactBtn" href="#contact" accesskey="7" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a>
+      <a id="contactBtn" href="#contact" accesskey="9" title="">{{ with .Site.Params.nav.contact }}{{ . | markdownify }}{{ end }}</a>
     {{ end }}
 
 

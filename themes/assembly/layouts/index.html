@@ -29,6 +29,14 @@
 	{{ partial "workshops.html" . }}
 	{{ end }}
 
+  {{ if .Site.Params.prizes.enable }}
+	{{ partial "prizes.html" . }}
+	{{ end }}
+
+  {{ if .Site.Params.judges.enable }}
+	{{ partial "judges.html" . }}
+	{{ end }}
+
   {{ if .Site.Params.register.enable }}
 	{{ partial "register.html" . }}
 	{{ end }}
@@ -65,6 +73,8 @@ $(document).ready(() => {
     btnHandler("about",     400);
     btnHandler("timeline",  400);
     btnHandler("workshops", 400);
+    btnHandler("prizes",    400);
+    btnHandler("judges",    400);
     btnHandler("register",  400);
     btnHandler("faq",       400);
     btnHandler("contact",   400);

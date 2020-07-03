@@ -25,6 +25,8 @@ publishDir = "docs"
   about = "About"
   timeline = "Timeline"
   workshops = "Workshops"
+  prizes = "Prizes"
+  judges = "Judges"
   register = "Registration"
   faq = "FAQ"
   contact = "Contact"
@@ -64,7 +66,41 @@ publishDir = "docs"
     opento = "TBC"
     description = "During this 1-hr session, Holmusk’s Lead Data Scientist will bring you through the concepts of convolutional neural networks for classification models. We will provide each team with a sample code to 1) build a CNN model, 2) perform model optimization and 3) validate the accuracy of the model."
 
+  [[params.workshops.item]]
+    title = "Building a CNN from scratch using Pytorch"
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+    description = "During this 1-hr session, Holmusk’s Lead Data Scientist will bring you through the concepts of convolutional neural networks for classification models. We will provide each team with a sample code to 1) build a CNN model, 2) perform model optimization and 3) validate the accuracy of the model."
 
+# Prizes section
+[params.prizes]
+  enable = true
+  title = "Prizes"
+
+  [[params.prizes.item]]
+    title = "Top prize"
+    description1 = "2 x iPad (7th Gen) 128GB"
+    description2 = "2 x Apple Pencil (1st Gen) 128GB"
+
+  [[params.prizes.item]]
+    title = "Second prize"
+    description1 = "2 x Samsung Tab S6 Lite [Grey] 4+128GB Wi-Fi"
+
+  [[params.prizes.item]]
+    title = "Third prize"
+    description1 = "2 x Seagate One Touch SSD 1TB (Black)"
+
+  [[params.prizes.item]]
+    title = "Honourable mentions"
+    description1 = "Honourable mentions for Year 3&#47;4 submission will receive:"
+    description2 = "2 x iPad (7th Gen) 128GB"
+
+# Judges section
+[params.judges]
+  enable = true
+  title = "Judges"
+  subtitle = "To be announced..."
 
 # Register section
 [params.register]
