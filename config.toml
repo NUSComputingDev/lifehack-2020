@@ -153,7 +153,7 @@ publishDir = "docs"
 
   [[params.faq.item]]
     title = "My team has encountered a roadblock in our project, can I seek help?"
-    description = "Yes! We have a forum where our Holmusk partners and Professors will be on standby to answer all your queries. You can access the forum [here](https://www.google.com)."
+    description = "Yes! We have a forum where our Holmusk partners and Professors will be on standby to answer all your queries. You can access the forum [here](https://lifehack2020.freeforums.net)."
 
   [[params.faq.item]]
     title = "Can I use code I previously wrote?"
