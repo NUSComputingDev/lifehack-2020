@@ -46,6 +46,7 @@ publishDir = "docs"
 [params.workshops]
   enable = true
   title = "Workshops"
+  subtitle = "Details to be announced on 8th July..."
 
   [[params.workshops.item]]
     title = "Computer Vision Data Pre-processing using Pytorch"
@@ -94,27 +95,26 @@ publishDir = "docs"
 # Judges section
 [params.judges]
   enable = true
-  title = "Judges"
+  title = "Networking with Companies"
+  subtitle = "Final Round - 30 July (Open to All)"
 
   [[params.judges.item]]
-    thumbnail = "/images/spongebob.png"
-    name = "Andy von Apple"
-    affiliation = "CEO, Andy's Apples"
+    thumbnail = "/images/ihis_alt.png"
+    name = "Representative"
+    affiliation = "IHiS"
+    timing = "2:30pm"
 
   [[params.judges.item]]
-    thumbnail = "/images/spongebob.png"
-    name = "Bob von Banana"
-    affiliation = "CEO, Bob's Bananas"
+    thumbnail = "/images/shopee.png"
+    name = "Representative"
+    affiliation = "Shopee"
+    timing = "3:00pm"
 
   [[params.judges.item]]
-    thumbnail = "/images/spongebob.png"
-    name = "Cheryl von Cheesecake"
-    affiliation = "CEO, Cheryl's Cheesecakes"
-
-  [[params.judges.item]]
-    thumbnail = "/images/spongebob.png"
-    name = "Dylan von Durian"
-    affiliation = "CEO, Dylan's Durians"
+    thumbnail = "/images/holmusk.png"
+    name = "Representative"
+    affiliation = "Holmusk"
+    timing = "3:30pm"
 
 # Register section
 [params.register]
@@ -128,40 +128,44 @@ publishDir = "docs"
   title = "FAQ"
 
   [[params.faq.item]]
+    title = "Who can participate?"
+    description = "Anyone currently pursuing Tertiary education"
+
+  [[params.faq.item]]
     title = "I don’t have a team member. Can I still participate?"
-    description = "Teams have to have at least 3 members. You may join this telegram group (hyperlink to tele grp) to find people who have yet to join too!"
+    description = "Teams must have only 2 members. You may join this telegram group to find teammates [here](https://www.google.com)."
 
   [[params.faq.item]]
     title = "How will the submissions be assessed?"
-    description = "Submissions will be assessed by industry experts and professors from the National University of Singapore, School of Computing. Results will be released on this site and emailed to finalists on 10th July. The Top 8 finalist teams will be invited to consult industry experts and present their solutions to judges. Stay tuned until then!"
+    description = "Submissions will be assessed by NUS Professors. Results will be released on 29th July. Selected finalist teams will be invited to present their solutions to judges on the Finale day on 30th July. Stay tuned until then!"
 
   [[params.faq.item]]
-    title = "Must I be present for the zoom sessions if my team is shortlisted?"
+    title = "Must I be present for the zoom session if my team is shortlisted?"
     description = "At least one member of the team has to be present. If no members are available, the team will be disqualified."
 
   [[params.faq.item]]
     title = "Will COVID-19 affect the hackathon?"
-    description = "Since this is a fully virtual hackathon, it is not affected by COVID-19.Most of our sessions will be conducted through Zoom. The timeline will proceed as per normal."
+    description = "Since this is a fully virtual hackathon, it is not affected by COVID-19. The timeline will proceed as per normal."
 
   [[params.faq.item]]
     title = "Do I need any technical experience or knowledge?"
-    description = "Basic programming competencies are expected, else all are welcomed! We will be providing workshops involving data modelling, machine learning, deep learning models etc. to help combat the problem sets. Find out more about workshops here (insert hyperlink to workshops tab)! (Links will be emailed to participants after registration.)"
+    description = "Basic programming competencies are expected, else all are welcomed! We have problem statements and workshops ranging from basic to advanced levels."
+
+  [[params.faq.item]]
+    title = "My team has encountered a roadblock in our project, can I seek help?"
+    description = "Yes! We have a forum where our Holmusk partners and Professors will be on standby to answer all your queries. You can access the forum [here](https://www.google.com)."
 
   [[params.faq.item]]
     title = "Can I use code I previously wrote?"
-    description = "Our problem sets are created uniquely for this competition by our gracious partners. You are allowed to use previously written code if your team wishes. However, copying of ideas and code that do not belong to you or your teammates are strictly not allowed and such cases will be checked and taken seriously by the organising team."
+    description = "You are allowed to use previously written code. However, the copying of ideas and code is not allowed."
 
   [[params.faq.item]]
     title = "Are there any restrictions on platforms and languages which can be used?"
-    description = "No, feel free to use any programming languages or technology you’re comfortable with! Our workshops will include usage of Azure, Python and PyTorch."
+    description = "No, feel free to use any programming languages or technology you’re comfortable with!"
 
   [[params.faq.item]]
-    title = "Can our teams make more than one submission?"
-    description = "You may make more than one submission, but only the latest submission before the deadline will be evaluated."
-
-  [[params.faq.item]]
-    title = "How will the internship opportunity be allocated to the winning team members? (TBC)"
-    description = "Internship Opportunities will be allocated to the Top 3 winning teams through expedited Interviews. Otherwise our partners are free to reach out to you/your teams through many online networking/mentoring opportunities, so do attend our zoom breakout sessions and let your potential shine!"
+    title = "Who owns the intellectual property rights to my submission?"
+    description = "For IP Rights agreement, please refer to this [IP rights Agreement](/documents/intellectual_property_rights.pdf)."
 
 
 # Organizers section
@@ -180,7 +184,7 @@ publishDir = "docs"
 # Footer section
 [params.footer]
   enable = true
-  copy = "2020 &copy; NUS Students' Computing Club | All rights reserved | Using the Assembly Theme"
+  copy = "2020 &copy; NUS Students' Computing Club | All rights reserved | Adapted from the Assembly Theme"
   twitter = ""
   facebook = ""
   instagram = ""

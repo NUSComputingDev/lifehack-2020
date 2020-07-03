@@ -607,6 +607,21 @@
     font-size: 1.0em;
   }
 
+  #workshops #workshops-list
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #workshops #workshops-list img
+  {
+    width: 200px;
+    margin: 30px;
+  }
+
+
 /*********************************************************************************/
 /* Prizes
 /*********************************************************************************/
@@ -687,6 +702,7 @@
     border-radius: 52.5px;
     border: 5px solid #0048CD;
     background: #FFFFFF;
+    object-fit: contain;
   }
 
   #judges .row {
@@ -701,14 +717,25 @@
   #judges h3
   {
     color: #FFFFFF;
-    font-size: 1.3em;
+    font-size: 2.0em;
+    margin-bottom: 0px;
   }
 
   #judges h4
   {
     color: #FFCA2B;
     text-align: center;
-    font-size: 1.0em;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #judges p
+  {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
     margin-top: 0px;
   }
 
@@ -843,7 +870,7 @@
 	{
 		position: relative;
 		padding: 7em 5em 7em 5em;
-		background: #0795FD;
+		background: #DDDDDD;
 		background-size: cover;
 		text-align: center;
 	}
@@ -851,7 +878,8 @@
   #organizers .title h2
 	{
 		font-size: 3.0em;
-    text-shadow: -3px 3px rgb(22,72,176);
+    color: #0795FD;
+    text-shadow: -3px 3px rgb(200,200,200);
 	}
 
   #organizers #organizers-list,#sponsors-list,#supporters-list
@@ -864,6 +892,7 @@
 
   #organizers h3
   {
+    color: #666666;
     margin-top: 50px;
     margin-bottom: 35px;
     font-size: 2.0em;

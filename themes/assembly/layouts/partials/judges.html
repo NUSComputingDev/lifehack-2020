@@ -11,6 +11,7 @@
             <img src="{{ .thumbnail }}"></img>
             <h3>{{ .name | markdownify }}</h3>
             <h4>{{ .affiliation | markdownify }}</h4>
+            <p>{{ .timing | markdownify }}</p>
           </div>
         </div>
         {{ end }}
