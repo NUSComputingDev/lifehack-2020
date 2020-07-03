@@ -4,6 +4,17 @@
         <h2>{{ .title }}</h2>
         <span class="byline">{{ .subtitle }}</span>
       </div>
+      <div class="row">
+        {{ range .item }}
+        <div class="column">
+          <div class="card">
+            <img src="{{ .thumbnail }}"></img>
+            <h3>{{ .name | markdownify }}</h3>
+            <h4>{{ .affiliation | markdownify }}</h4>
+          </div>
+        </div>
+        {{ end }}
+      </div>
     {{ end }}
     </div>
 </div>

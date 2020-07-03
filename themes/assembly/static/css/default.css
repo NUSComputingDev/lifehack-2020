@@ -106,6 +106,11 @@
 		color: #0048CD;
 	}
 
+  .container .button:hover
+  {
+    background: #FFFFFF;
+  }
+
   .byline
 	{
 		font-size: 1.6em;
@@ -618,7 +623,7 @@
   #prizes .title h2
 	{
 		font-size: 3.0em;
-    text-shadow: -3px 3px rgb(22,72,176);
+    text-shadow: -3px 3px rgb(50,50,100);
 	}
 
   #prizes > .row > .column > h3
@@ -668,6 +673,44 @@
 		font-size: 3.0em;
     text-shadow: -3px 3px rgb(22,72,176);
 	}
+
+  #judges .card
+  {
+    margin: 10px;
+    padding: 30px;
+  }
+
+  #judges .card img
+  {
+    height: 100px;
+    width: 100px;
+    border-radius: 52.5px;
+    border: 5px solid #0048CD;
+    background: #FFFFFF;
+  }
+
+  #judges .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+		padding: 1em 0em;
+  }
+
+
+  #judges h3
+  {
+    color: #FFFFFF;
+    font-size: 1.3em;
+  }
+
+  #judges h4
+  {
+    color: #FFCA2B;
+    text-align: center;
+    font-size: 1.0em;
+    margin-top: 0px;
+  }
 
 /*********************************************************************************/
 /* Register                                                                       */

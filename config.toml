@@ -12,11 +12,6 @@ publishDir = "docs"
   description = "Lifehack 2020"
 
 
-
-# banner section (from here on is for assembly theme)
-[params.banner]
-  # title = "Lifehack 2020"
-
 [params.actions] # CTAs
   enable = true
   register = "CTA Now!"
@@ -100,7 +95,26 @@ publishDir = "docs"
 [params.judges]
   enable = true
   title = "Judges"
-  subtitle = "To be announced..."
+
+  [[params.judges.item]]
+    thumbnail = "/images/spongebob.png"
+    name = "Andy von Apple"
+    affiliation = "CEO, Andy's Apples"
+
+  [[params.judges.item]]
+    thumbnail = "/images/spongebob.png"
+    name = "Bob von Banana"
+    affiliation = "CEO, Bob's Bananas"
+
+  [[params.judges.item]]
+    thumbnail = "/images/spongebob.png"
+    name = "Cheryl von Cheesecake"
+    affiliation = "CEO, Cheryl's Cheesecakes"
+
+  [[params.judges.item]]
+    thumbnail = "/images/spongebob.png"
+    name = "Dylan von Durian"
+    affiliation = "CEO, Dylan's Durians"
 
 # Register section
 [params.register]
