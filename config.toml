@@ -169,7 +169,7 @@ publishDir = "docs"
 
   [[params.faq.item]]
     title = "Where can I find Updates/Announcements?"
-    description = "Join us in our Telegram channel here (add tele link) for most recent updates!"
+    description = "Join us in our Telegram channel [here](https://t.me/lifehack2020_official) for most recent updates!"
 
 
 # Organizers section
