@@ -129,7 +129,7 @@ publishDir = "docs"
 
   [[params.faq.item]]
     title = "Who can participate?"
-    description = "Anyone currently pursuing Tertiary education"
+    description = "Anyone currently pursuing Tertiary education."
 
   [[params.faq.item]]
     title = "I don’t have a team member. Can I still participate?"
