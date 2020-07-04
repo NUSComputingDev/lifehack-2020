@@ -133,7 +133,7 @@ publishDir = "docs"
 
   [[params.faq.item]]
     title = "I don’t have a team member. Can I still participate?"
-    description = "Teams must have only 2 members. You may join this telegram group to find teammates [here](https://www.google.com)."
+    description = "Teams must have only 2 members. You may email us at lifehack2020@nuscomputing.com and we can try to match you up with someone."
 
   [[params.faq.item]]
     title = "How will the submissions be assessed?"
@@ -166,6 +166,10 @@ publishDir = "docs"
   [[params.faq.item]]
     title = "Who owns the intellectual property rights to my submission?"
     description = "For IP Rights agreement, please refer to this [IP rights Agreement](/documents/intellectual_property_rights.pdf)."
+
+  [[params.faq.item]]
+    title = "Where can I find Updates/Announcements?"
+    description = "Join us in our Telegram channel here (add tele link) for most recent updates!"
 
 
 # Organizers section
