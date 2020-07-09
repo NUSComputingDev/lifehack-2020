@@ -31,7 +31,7 @@ publishDir = "docs"
 [params.about]
   enable = true
   title = "About"
-  description = "Lifehack 2020 is a virtual datathon that invites you to apply data science to solve pertinent real world problems. Through wide-ranging workshops, you will be exposed to professional tools and develop advanced technical skills to provide innovative solutions for the transport industries."
+  description = "Lifehack 2020 is a virtual datathon that invites you to apply data science to solve pertinent real world problems. Through wide-ranging workshops, you will be exposed to professional tools and develop advanced technical skills to provide innovative solutions for the healthcare industry."
   button_text = "Register Here"
 
 
@@ -63,11 +63,27 @@ publishDir = "docs"
     description = "During this 1-hr session, Holmusk’s Lead Data Scientist will bring you through the concepts of convolutional neural networks for classification models. We will provide each team with a sample code to 1) build a CNN model, 2) perform model optimization and 3) validate the accuracy of the model."
 
   [[params.workshops.item]]
-    title = "Building a CNN from scratch using Pytorch"
+    title = "Python Basics for Data Science"
     dateandtime = "TBC"
     venue = "TBC"
     opento = "TBC"
-    description = "During this 1-hr session, Holmusk’s Lead Data Scientist will bring you through the concepts of convolutional neural networks for classification models. We will provide each team with a sample code to 1) build a CNN model, 2) perform model optimization and 3) validate the accuracy of the model."
+    description = "This workshop will cover the environment set up and introduction to some of the key libraries which we use for data science in python. Participants are expected to have a basic understanding of python."
+
+  [[params.workshops.item]]
+    title = "Data Science Models For Beginners "
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+    description = "This workshop will be an introduction to supervised learning models and how to implement these models using python. We will also touch on the importance of exploratory data analysis."
+
+  [[params.workshops.item]]
+    title = "Advanced Data Science Models"
+    dateandtime = "TBC"
+    venue = "TBC"
+    opento = "TBC"
+    description = "This workshop will cover additional data science models you can use for supervised and unsupervised learning. We will also touch on some best practices to keep in mind when building your models."
+
+
 
 # Prizes section
 [params.prizes]
