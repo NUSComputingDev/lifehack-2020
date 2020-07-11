@@ -46,7 +46,6 @@ publishDir = "docs"
 [params.workshops]
   enable = true
   title = "Workshops"
-  subtitle = "Details to be announced on 8th July..."
 
   [[params.workshops.item1]]
     title = "Introduction to Neural Network"
