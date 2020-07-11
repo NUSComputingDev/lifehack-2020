@@ -52,7 +52,7 @@ publishDir = "docs"
     company = "IHiS"
     date = "Date TBC"
     time = "Time TBC"
-    description = "In recent years, Deep Learning has gained attention due to the advancement in applications such as facial recognition, image recognition, and autonomous cars. The foundation of Deep Learning are Neural Networks which emulate the working principle of a biological human brain. For this workshop, we will explore the fundamentals of Neural Network and its learning function. We will demonstrate a simple example of  image recognition so that you can have a glimpse of the implementation of Neural Network using modern learning framework."
+    description = "For this workshop, we will explore the fundamentals of Neural Network and its learning function. We will demonstrate a simple example of  image recognition so that you can have a glimpse of the implementation of Neural Network using modern learning framework."
 
   [[params.workshops.item1]]
     title = "How to make a Data Science presentation for business?"
