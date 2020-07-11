@@ -58,7 +58,7 @@ publishDir = "docs"
     title = "How to make a Data Science presentation for business?"
     company = "Holmusk"
     date = "Saturday, 18 Jul 2020"
-    time = "6.00pm - 7:30pm"
+    time = "6:00pm - 7:30pm"
     description = "Your findings may be groundbreaking, but will you be able to showcase their value to the judges? This workshop will cover fundamentals of presentations and how to present your data science findings in a business setting."
 
   [[params.workshops.item2]]
