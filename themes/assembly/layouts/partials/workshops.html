@@ -5,28 +5,44 @@
         <span class="byline">{{ .subtitle }}</span>
       </div>
 
+      <!--
       <div id="workshops-list">
         <img src="/images/ihis_alt.png" />
         <img src="/images/smartcademy.png" />
         <img src="/images/holmusk.png" />
       </div>
-      <!--
+      -->
+
       <div class="row">
-        {{ range .item }}
+        {{ range .item1 }}
         <div class="column">
           <div class="card">
-            <h3>{{ .title | markdownify }}<br>{{ .company }}</h3>
+            <h3>{{ .title | markdownify }}</h3>
             <ul>
-              <li>Date and Time: <b>{{ .dateandtime | markdownify }}</b></li>
-              <li>Venue: <b>{{ .venue | markdownify }}</b></li>
-              <li>Open to: <b>{{ .opento | markdownify }}</b></li>
+              <li><b>{{ .company | markdownify }}</b></li>
+              <li><b>{{ .date | markdownify }}</b></li>
+              <li><b>{{ .time | markdownify }}</b></li>
             </ul>
             <p>{{ .description | markdownify }}</p>
           </div>
         </div>
         {{ end }}
       </div>
-      -->
+      <div class="row">
+        {{ range .item2 }}
+        <div class="column">
+          <div class="card">
+            <h3>{{ .title | markdownify }}</h3>
+            <ul>
+              <li><b>{{ .company | markdownify }}</b></li>
+              <li><b>{{ .date | markdownify }}</b></li>
+              <li><b>{{ .time | markdownify }}</b></li>
+            </ul>
+            <p>{{ .description | markdownify }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
     {{ end }}
     </div>
 </div>

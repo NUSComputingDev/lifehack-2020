@@ -568,8 +568,8 @@
 
   #workshops .card
   {
-    width: 280px;
-    height: 400px;
+    width: 320px;
+    height: 420px;
     margin: 10px;
     padding: 30px;
     background: #ffffff;
@@ -580,11 +580,9 @@
   #workshops .row {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 		padding: 1em 0em;
   }
-
 
   #workshops h3
   {

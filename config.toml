@@ -48,39 +48,39 @@ publishDir = "docs"
   title = "Workshops"
   subtitle = "Details to be announced on 8th July..."
 
-  [[params.workshops.item]]
-    title = "Computer Vision Data Pre-processing using Pytorch"
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
-    description = "Our team of experienced data scientists will deliver a 1-hr lesson on image pre-processing user-output images for computer vision models. They will bring you through each step of converting images into a model-worthy format and how to visualize images using python libraries. Teams will be able to use the sample codes to start processing the images for the coding challenge."
+  [[params.workshops.item1]]
+    title = "Introduction to Neural Network"
+    company = "IHiS"
+    date = "Date TBC"
+    time = "Time TBC"
+    description = "In recent years, Deep Learning has gained attention due to the advancement in applications such as facial recognition, image recognition, and autonomous cars. The foundation of Deep Learning are Neural Networks which emulate the working principle of a biological human brain. For this workshop, we will explore the fundamentals of Neural Network and its learning function. We will demonstrate a simple example of  image recognition so that you can have a glimpse of the implementation of Neural Network using modern learning framework."
 
-  [[params.workshops.item]]
-    title = "Building a CNN from scratch using Pytorch"
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
-    description = "During this 1-hr session, Holmusk’s Lead Data Scientist will bring you through the concepts of convolutional neural networks for classification models. We will provide each team with a sample code to 1) build a CNN model, 2) perform model optimization and 3) validate the accuracy of the model."
+  [[params.workshops.item1]]
+    title = "How to make a Data Science presentation for business?"
+    company = "Holmusk"
+    date = "Saturday, 18 Jul 2020"
+    time = "6.00pm - 7:30pm"
+    description = "Your findings may be groundbreaking, but will you be able to showcase their value to the judges? This workshop will cover fundamentals of presentations and how to present your data science findings in a business setting."
 
-  [[params.workshops.item]]
+  [[params.workshops.item2]]
     title = "Python Basics for Data Science"
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
-    description = "This workshop will cover the environment set up and introduction to some of the key libraries which we use for data science in python. Participants are expected to have a basic understanding of python."
+    company = "Smartcademy"
+    date = "Monday, 13 Jul 2020"
+    time = "7:30pm - 9:00pm"
+    description = "This workshop will cover the environment set up and introduction to some of the key libraries which we use for data science in python. Participants are expected to have a basic understanding of python. "
 
-  [[params.workshops.item]]
+  [[params.workshops.item2]]
     title = "Data Science Models For Beginners "
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
+    company = "Smartcademy"
+    date = "Wednesday, 15 Jul 2020"
+    time = "7:30pm - 9:00pm"
     description = "This workshop will be an introduction to supervised learning models and how to implement these models using python. We will also touch on the importance of exploratory data analysis."
 
-  [[params.workshops.item]]
+  [[params.workshops.item2]]
     title = "Advanced Data Science Models"
-    dateandtime = "TBC"
-    venue = "TBC"
-    opento = "TBC"
+    company = "Smartcademy"
+    date = "Friday, 17 Jul 2020"
+    time = "7:30pm - 9:00pm"
     description = "This workshop will cover additional data science models you can use for supervised and unsupervised learning. We will also touch on some best practices to keep in mind when building your models."
 
 
