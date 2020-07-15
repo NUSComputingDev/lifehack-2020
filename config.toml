@@ -50,8 +50,8 @@ publishDir = "docs"
   [[params.workshops.item1]]
     title = "Introduction to Neural Network"
     company = "IHiS"
-    date = "Date TBC"
-    time = "Time TBC"
+    date = "Monday, 20 Jul 2020"
+    time = "7:00pm - 8:00pm"
     description = "For this workshop, we will explore the fundamentals of Neural Network and its learning function. We will demonstrate a simple example of  image recognition so that you can have a glimpse of the implementation of Neural Network using modern learning framework."
 
   [[params.workshops.item1]]
