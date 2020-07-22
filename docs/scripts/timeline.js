@@ -39,7 +39,7 @@ var Countdown = {
     var update = function() {
 
       var date1 = new Date(); // Now.
-      var date2 = new Date("2020-07-22T23:59:59.000+08:00");
+      var date2 = new Date("2020-07-28T12:00:00.000+08:00");
 
       var diff = date2.getTime() - date1.getTime();
 
